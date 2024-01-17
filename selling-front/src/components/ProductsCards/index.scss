@@ -1,0 +1,44 @@
+.products_cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    .products_card{
+        width: 31%;
+        margin-bottom: 30px;
+        .card_img{
+            img{
+
+            }
+        }
+        .card_text{
+            padding: 20px;
+            &_content{
+                text-align: center;
+                h4{
+                    font-size: 18px;
+                    color: #000000;
+                    margin-bottom: 20px;
+                }
+                i{
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 13px;
+                    color: #808080;
+                    margin-bottom: 20px;
+                }
+                button{
+                    margin-right: 10px;
+                    padding: 6px 20px;
+                    font-size: 12px;
+                    background-color: #000000;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

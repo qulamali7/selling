@@ -1,0 +1,28 @@
+#products{
+    padding: 120px 0px;
+    .products_container{
+        max-width: 1200px;
+        margin: auto;
+        .products_content{
+            .products_title{
+                text-align: center;
+                width: 500px;
+                margin: 30px auto;
+                h5{
+                    font-size: 13px;
+                    color: #adb5bd;
+                    margin-bottom: 20px;
+                }
+                h2{
+                    font-size: 40px;
+                    color:black;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 16px;
+                    color: #808080;
+                }
+            }
+        }
+    }
+}

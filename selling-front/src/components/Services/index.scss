@@ -1,0 +1,23 @@
+#services {
+  padding: 120px 0px;
+  background-color: #f8f9fa;
+  .services_container {
+    max-width: 1200px;
+    margin: auto;
+    .services_content {
+      .services_title {
+        text-align: center;
+        margin-bottom: 50px;
+        p {
+          font-size: 13px;
+          color: #adb5bd;
+          margin-bottom: 20px;
+        }
+        h2 {
+          font-size: 40px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}

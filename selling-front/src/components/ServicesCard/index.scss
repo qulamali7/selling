@@ -1,0 +1,22 @@
+.services_card{
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    .services_icon{
+        i{
+            font-size: 48px;
+            color: #f16821;
+        }
+    }
+    .services_text{
+        p{
+            font-size: 16px;
+            color: #808080;
+        }
+        h3{
+            font-size: 20px;
+            color: #808080;
+        }
+    }
+}

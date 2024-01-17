@@ -1,0 +1,25 @@
+footer{
+    padding: 120px 0px;
+    .footer_container{
+        max-width: 1200px;
+        margin: auto;
+        .footer_content{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            .about{
+                width: 25%;
+            }
+            .quick{
+                width: 25%;
+            }
+            .follow{
+                width: 25%;
+            }
+            .featured_product{
+                width: 25%;
+            }
+
+        }
+    }
+}

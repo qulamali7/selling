@@ -1,0 +1,68 @@
+#about {
+  padding: 120px 0px;
+  .about_container {
+    max-width: 1200px;
+    margin: auto;
+    .about_content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .about_img {
+        width: 60%;
+        position: relative;
+        .about_img_text{
+            position: absolute;
+            bottom: -30px;
+            right: -30px;
+            background-color: #46ddb0;
+            padding: 20px;
+            h2{
+                font-size: 48px;
+                color: white;
+            }
+            p{
+                font-size: 16px;
+                color: white;
+            }
+
+        }
+      }
+      .about_text {
+        width: 40%;
+        padding-left: 120px;
+        span {
+          font-size: 13px;
+          color: #adb5bd;
+          letter-spacing: 2.6px;
+          margin-bottom: 10px;
+        }
+        h2 {
+          font-size: 40px;
+          color: #000;
+          margin-bottom: 16px;
+        }
+        p {
+          font-size: 16px;
+          color: #808080;
+          margin-bottom: 16px;
+        }
+        button{
+            font-size: 12px;
+            font-weight: bold;
+            border: none;
+            background-color: black;
+            color: white;
+            padding: 8px 30px;
+            border: 2px solid transparent;
+            transition: 0.5s all ease;
+            &:hover{
+                color: black;
+                background-color: white;
+                border: 2px solid black;
+                cursor: pointer;
+            }
+        }
+      }
+    }
+  }
+}

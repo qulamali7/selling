@@ -1,0 +1,38 @@
+header{
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    width: 100%;
+    .header_container{
+        max-width: 1200px;
+        margin: auto;
+        .header_content{
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            a{
+                color: black;
+                font-size: 48px;
+                span{
+                    color: #f16821;
+                }
+            }
+            nav{
+                ul{
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+                    li{
+                        a{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
